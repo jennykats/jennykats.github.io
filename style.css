@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
+/*@import url('https://fonts.googleapis.com/css?family=Indie+Flower');*/
 
 body {
   background-color: #f7f8f9;
   font-family: 'Roboto', sans-serif;
+  /*font-family: 'Indie Flower', cursive;*/
   /*position: absolute;*/
 }
 
@@ -29,16 +30,15 @@ ul {
 }
 
 li {
-    /*width: 60px;*/
   display: block;
-  /*padding: 0px 40px;*/
-  padding-right: 40px;
+  padding-bottom: 20px;
+  letter-spacing: 6px;
 }
 
 
 a:link {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a{
@@ -47,46 +47,39 @@ a{
 
 .links {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 20px;
   color: black;
-  /*position: relative;*/
-  /*padding-left: 50px;*/
+}
+
+.resume {
+  width: 50%;
 }
 
 .dropdown {
-  /*font-style: italic;*/
+  width: 50%;
   font-size: 20px;
   color: black;
-  /*position: relative;*/
-  /*padding-left: 50px;*/
-
 }
 
 .dropdown-content {
   display: none;
   padding-top: 10px;
   font-size: 16px;
-  /*position: absolute;*/
   background-color: #f9f9f9;
-  /*min-width: 160px;*/
-  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
-  /*padding: 12px 16px;*/
-  /*z-index: 111;*/
   letter-spacing: 1px;
+}
+
+.dropdown-content a {
+  display: block;
+  text-align: center;
+  padding: 10px;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
-    /*z-index: 100;*/
 }
-
-.svr {
-  position: absolute;
-}
-
-.non-svr {
-  margin-left: -20px;
-}
-    /*margin-right: -50%;*/
-    /*transform: translate(-50%, -50%) }*/
