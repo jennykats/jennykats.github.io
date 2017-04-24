@@ -35,6 +35,13 @@ li {
   letter-spacing: 6px;
 }
 
+.phone {
+  padding-left: 80px;
+}
+
+.email {
+  padding-left: 160px;
+}
 
 a:link {
   text-decoration: none;
@@ -47,9 +54,9 @@ a{
 
 .links {
   display: flex;
-  justify-content: space-between;;
+  justify-content: space-between;
   flex-wrap: wrap;
-  width: 30%;
+  width: 20%;
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
@@ -64,6 +71,10 @@ a{
   width: 50%;
   font-size: 20px;
   color: black;
+}
+
+.contact {
+  width: 100%;
 }
 
 .dropdown-content {
