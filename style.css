@@ -8,6 +8,9 @@ body {
   /*position: absolute;*/
 }
 
+p {
+  font-style: italic;
+}
 .container {
   padding-top: 300px;
   text-align: center;
@@ -15,7 +18,7 @@ body {
 }
 
 .name {
-  font-size: 90px;
+  font-size: 70px;
   color: #D3D3D3;
   height: 10em;
   /*position: relative;*/
@@ -30,9 +33,9 @@ ul {
 }
 
 li {
-  display: block;
+  display: inline;
   padding-bottom: 20px;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
 }
 
 .phone {
@@ -55,7 +58,7 @@ a{
 .links {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   width: 30%;
   margin-left: auto;
   margin-right: auto;
@@ -63,13 +66,19 @@ a{
   color: black;
 }
 
-.resume {
-  width: 50%;
+.about {
+  /*width: 50%;*/
+  font-size: 15px;
+}
+
+.photographs {
+  /*width: 50%;*/
+  font-size: 15px;
 }
 
 .dropdown {
   width: 50%;
-  font-size: 20px;
+  font-size: 15px;
   color: black;
 }
 
