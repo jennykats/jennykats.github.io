@@ -11,12 +11,16 @@ body {
 p {
   font-style: italic;
 }
+
 .container {
   padding-top: 300px;
   text-align: center;
 
 }
 
+.non-svr {
+  color: #a1a5ad;
+}
 
 .name {
   font-size: 70px;
@@ -37,6 +41,7 @@ li {
   display: inline;
   padding-bottom: 20px;
   letter-spacing: 4px;
+  padding-right: 25px;
 }
 
 .phone {
