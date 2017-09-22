@@ -12,10 +12,17 @@ p {
   font-style: italic;
 }
 
+.ilink {
+  color: #526a91;
+}
 .container {
   padding-top: 300px;
   text-align: center;
 
+}
+
+.image-container {
+  text-align: center;
 }
 
 .non-svr {
