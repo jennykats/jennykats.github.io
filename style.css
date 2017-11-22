@@ -21,6 +21,11 @@ p {
 
 }
 
+.photocontainer {
+  padding-top: 30px;
+  text-align: center;
+}
+
 .image-container {
   text-align: center;
 }
