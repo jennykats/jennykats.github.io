@@ -14,7 +14,15 @@ p {
 
 .ilink {
   color: #526a91;
+  position: fixed;
+  padding-top: 20%;
+  padding-left: 16%;
 }
+
+.clink {
+  color: #526a91;
+}
+
 .container {
   padding-top: 300px;
   text-align: center;
