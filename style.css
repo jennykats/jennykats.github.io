@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 /*@import url('https://fonts.googleapis.com/css?family=Indie+Flower');*/
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
 body {
   background-color: #f7f8f9;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Libre Baskerville', serif;
   /*font-family: 'Indie Flower', cursive;*/
   /*position: absolute;*/
 }
 
 p {
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 .ilink {
@@ -19,7 +21,7 @@ p {
   margin-left: 16%;
 }
 .ilink2 {
-  color: #526a91;
+  color: black;
   position: fixed;
   margin-top: 22%;
   margin-left: 16%;
@@ -30,7 +32,7 @@ p {
 }
 
 .container {
-  padding-top: 300px;
+  padding-top: 30px;
   text-align: center;
 
 }
@@ -49,12 +51,16 @@ p {
 }
 
 .name {
-  font-size: 70px;
+  font-size: 40px;
   color: #D3D3D3;
   height: 10em;
   /*position: relative;*/
   /*padding-left: 450px;*/
-  letter-spacing: 10px;
+  letter-spacing: 2px;
+}
+
+.spacer {
+  padding-top: 10px;
 }
 
 ul {
@@ -65,7 +71,7 @@ ul {
 
 li {
   display: inline;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   letter-spacing: 4px;
   padding-right: 25px;
 }
@@ -82,19 +88,21 @@ a:link {
   text-decoration: none;
 }
 
-a{
+a {
   color: black;
 }
 
 .links {
   display: flex;
   justify-content: space-between;
-  /*flex-wrap: wrap;*/
   width: 30%;
   margin-left: auto;
   margin-right: auto;
   font-size: 15px;
   color: black;
+  position: absolute;
+  z-index: 100;
+  padding-left: 500px;
 }
 
 .about {
@@ -122,7 +130,6 @@ a{
   padding-top: 10px;
   font-size: 12px;
   /*color: #5c8ad6;*/
-  background-color: #f9f9f9;
   letter-spacing: 1px;
 }
 
