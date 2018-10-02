@@ -17,10 +17,10 @@ p {
 
 .wrapper {
   position: fixed;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: 10%;
 }
-/* 
+/*
 .ilink {
   color: #526a91;
   position: fixed;
@@ -69,6 +69,14 @@ p {
 
 .spacer {
   padding-top: 10px;
+}
+
+.home-spacer {
+  padding-bottom: 25px;
+}
+
+.photo-spacer {
+  padding-bottom: 30px;
 }
 
 ul {
