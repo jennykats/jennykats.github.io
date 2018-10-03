@@ -21,11 +21,23 @@ p {
   margin-left: 10%;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
+
     .links {
-        padding-left: 300px;
-    }
-}
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
+      margin-left: 30%;
+      margin-right: auto;
+      font-size: 15px;
+      color: black;
+      position: absolute;
+      z-index: 100;
+      /* padding-left: 500px; */
+    /* }
+} */
+
+
 /*
 .ilink {
   color: #526a91;
