@@ -20,6 +20,12 @@ p {
   margin-top: 10%;
   margin-left: 10%;
 }
+
+@media only screen and (max-width: 600px) {
+    .links {
+        padding-left: 300px;
+    }
+}
 /*
 .ilink {
   color: #526a91;
